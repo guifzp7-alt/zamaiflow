@@ -1,0 +1,34 @@
+html[data-theme="light"]{color-scheme:light;--theme-page:#F4F6F5;--theme-surface:#fff;--theme-raised:#edf1f2;--theme-text:#141a1d;--theme-muted:#566167;--theme-subtle:#778187;--theme-line:rgba(11,13,15,.12)}
+html[data-theme="light"] body{background:var(--theme-page);color:var(--theme-text)}
+html[data-theme="light"] .site-header{border-color:var(--theme-line)}
+html[data-theme="light"] .nav-link{color:#626c71}
+html[data-theme="light"] .nav-link:hover,html[data-theme="light"] .nav-link.active{color:var(--theme-text)}
+html[data-theme="light"] .eyebrow,html[data-theme="light"] .button-quiet{color:#3f4a50}
+html[data-theme="light"] .hero-description,html[data-theme="light"] .section-heading>p,html[data-theme="light"] .problems-heading>p,html[data-theme="light"] .preview-copy>p,html[data-theme="light"] .faq-intro>p,html[data-theme="light"] .final-cta>p{color:var(--theme-muted)}
+html[data-theme="light"] .hero-bottom{border-color:var(--theme-line);color:#778187}
+html[data-theme="light"] .dashboard-card,html[data-theme="light"] .floating-mark,html[data-theme="light"] .problem-card,html[data-theme="light"] .problems-close,html[data-theme="light"] .step-card,html[data-theme="light"] .feature-card,html[data-theme="light"] .platform-card,html[data-theme="light"] .preview-window{background:var(--theme-surface);border-color:var(--theme-line);box-shadow:0 18px 50px rgba(19,38,43,.08)}
+html[data-theme="light"] .problem-card-featured,html[data-theme="light"] .feature-wide{background:#eef9fa;border-color:rgba(40,150,162,.28)}
+html[data-theme="light"] .preview-section{background:#eaf0f1}
+html[data-theme="light"] .final-cta{background:#e9f6f7;border-color:rgba(40,150,162,.28)}
+html[data-theme="light"] .stat-card,html[data-theme="light"] .mini-queue,html[data-theme="light"] .preview-metrics>div{background:var(--theme-raised);border-color:var(--theme-line)}
+html[data-theme="light"] .dashboard-topbar,html[data-theme="light"] .dashboard-footer,html[data-theme="light"] .reel-row,html[data-theme="light"] .preview-window-top,html[data-theme="light"] .preview-rail,html[data-theme="light"] .preview-list-row,html[data-theme="light"] .faq-list details{border-color:var(--theme-line)}
+html[data-theme="light"] .dashboard-label,html[data-theme="light"] .small-label,html[data-theme="light"] .schedule-title,html[data-theme="light"] .stat-card>span,html[data-theme="light"] .stat-card small,html[data-theme="light"] .reel-info small,html[data-theme="light"] .dashboard-footer,html[data-theme="light"] .floating-mark,html[data-theme="light"] .section-kicker,html[data-theme="light"] .problem-index,html[data-theme="light"] .problem-card p,html[data-theme="light"] .problem-card .card-caption,html[data-theme="light"] .problems-close p,html[data-theme="light"] .step-number,html[data-theme="light"] .step-card p,html[data-theme="light"] .step-connector,html[data-theme="light"] .feature-copy p,html[data-theme="light"] .feature-card>p,html[data-theme="light"] .mini-queue-head,html[data-theme="light"] .mini-queue-item small,html[data-theme="light"] .library-tiles span,html[data-theme="light"] .preview-window-top,html[data-theme="light"] .preview-date,html[data-theme="light"] .preview-greeting small,html[data-theme="light"] .preview-metrics small,html[data-theme="light"] .preview-metrics b i,html[data-theme="light"] .preview-list-row small,html[data-theme="light"] .platform-heading>p,html[data-theme="light"] .platform-status,html[data-theme="light"] .faq-list details p,html[data-theme="light"] .pricing-note,html[data-theme="light"] .footer-brand small,html[data-theme="light"] .footer-copy{color:var(--theme-muted)}
+html[data-theme="light"] .dashboard-heading h2,html[data-theme="light"] .reel-info b,html[data-theme="light"] .problems-close p b,html[data-theme="light"] .step-card h3,html[data-theme="light"] .feature-copy h3,html[data-theme="light"] .feature-card>h3,html[data-theme="light"] .mini-queue-item b,html[data-theme="light"] .preview-greeting b,html[data-theme="light"] .preview-list-head b,html[data-theme="light"] .platform-name,html[data-theme="light"] .faq-list summary{color:var(--theme-text)}
+html[data-theme="light"] .floating-mark b{color:var(--theme-text)}
+html[data-theme="light"] .live-pill,html[data-theme="light"] .status,html[data-theme="light"] .mini-queue-item em,html[data-theme="light"] .preview-list-row em,html[data-theme="light"] .platform-now{color:#087d89}
+html[data-theme="light"] .preview-rail{color:#7b858a}
+html[data-theme="light"] .instagram-logo{color:#111719;border-color:var(--theme-line)}
+html[data-theme="light"] .tiktok-logo{background:#111719;color:#fff}
+html[data-theme="light"] .site-footer{border-color:var(--theme-line)}
+html[data-theme="light"] .theme-toggle{color:#38464b;background:#fff;border-color:rgba(11,13,15,.16)}
+html[data-theme="dark"] .theme-toggle{color:#f4f6f5;background:#151a1c;border-color:rgba(244,246,245,.2)}
+.header-actions{display:flex;align-items:center;gap:10px}
+.theme-toggle{width:42px;height:42px;display:grid;place-items:center;flex:none;border:1px solid rgba(11,13,15,.16);border-radius:8px;background:#fff;color:#38464b;cursor:pointer;transition:background .2s,border-color .2s,color .2s}
+.theme-toggle:hover{border-color:var(--cyan);color:#087d89}
+.theme-toggle:focus-visible{outline:2px solid var(--cyan);outline-offset:3px}
+.theme-icon{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.theme-sun{display:none}
+html[data-theme="dark"] .theme-moon{display:none}
+html[data-theme="dark"] .theme-sun{display:block}
+@media(max-width:650px){.header-actions{gap:7px}.theme-toggle{width:38px;height:38px}.header-cta{height:38px}}
+@media(max-width:370px){.brand{gap:6px}.brand-name{font-size:12px}.header-actions{gap:5px}.header-cta{padding:0 8px;font-size:8px}}

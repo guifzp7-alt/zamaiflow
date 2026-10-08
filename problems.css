@@ -1,0 +1,20 @@
+.problems-section{max-width:1440px;margin:0 auto;padding:110px 7.2% 104px;border-top:1px solid rgba(244,246,245,.07)}
+.section-kicker{display:flex;align-items:center;gap:10px;color:#aab4b7;font-size:9px;font-weight:600;letter-spacing:.14em}
+.problems-heading{display:flex;align-items:end;justify-content:space-between;gap:40px;margin:25px 0 43px}
+.problems-heading h2{margin:0;font-size:clamp(35px,4.2vw,55px);line-height:1.19;letter-spacing:-.065em;font-weight:600}
+.problems-heading h2 span{color:var(--cyan)}
+.problems-heading>p{max-width:380px;margin:0 0 5px;color:#9da7aa;font-size:12px;line-height:1.85}
+.problem-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.problem-card{min-height:252px;padding:22px 22px 19px;background:#111517;border:1px solid rgba(244,246,245,.1);border-radius:10px;position:relative;overflow:hidden;transition:border-color .2s,transform .2s}
+.problem-card:hover{border-color:rgba(40,215,232,.38);transform:translateY(-3px)}
+.problem-card-featured{background:#12191b;border-color:rgba(40,215,232,.3)}
+.problem-index{font-size:9px;letter-spacing:.1em;color:#778286}.problem-index span{color:var(--cyan)}
+.problem-icon{width:41px;height:41px;margin-top:24px;border:1px solid rgba(40,215,232,.27);border-radius:9px;display:grid;place-items:center;color:var(--cyan);background:rgba(40,215,232,.06)}
+.problem-icon svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.problem-card h3{font-size:15px;letter-spacing:-.035em;margin:16px 0 8px}.problem-card p{max-width:315px;color:#929da1;font-size:10px;line-height:1.8;margin:0}
+.card-rule{height:1px;background:rgba(244,246,245,.08);margin-top:22px}.card-caption{display:block;margin-top:12px;font-size:7px;letter-spacing:.13em;color:#778286}.problem-card-featured .card-caption{color:var(--cyan)}
+.problems-close{min-height:70px;margin-top:18px;padding:0 20px;display:flex;align-items:center;gap:13px;background:#111517;border:1px solid rgba(244,246,245,.08);border-radius:9px}
+.close-mark{width:31px;height:31px;display:grid;place-items:center;border-radius:8px;background:var(--cyan);color:var(--black);font-weight:700;font-size:13px}
+.problems-close p{flex:1;margin:0;font-size:11px;color:#a8b1b4}.problems-close p b{color:var(--white);font-weight:500}.close-arrow{font-size:18px;color:var(--cyan)}
+@media(max-width:900px){.problems-section{padding:85px 6%}.problems-heading{gap:24px}.problem-card{padding:19px 16px}.problem-card p{font-size:9px}}
+@media(max-width:650px){.problems-section{padding:70px 22px 72px}.section-kicker{font-size:8px;letter-spacing:.09em}.problems-heading{display:block;margin:19px 0 27px}.problems-heading h2{font-size:clamp(33px,9.5vw,45px)}.problems-heading>p{margin-top:15px;font-size:11px}.problem-grid{grid-template-columns:1fr;gap:10px}.problem-card{min-height:0;padding:17px 18px}.problem-icon{margin-top:15px;width:36px;height:36px}.problem-card h3{font-size:14px;margin:12px 0 6px}.problem-card p{font-size:10px;max-width:none}.card-rule{margin-top:15px}.problems-close{padding:12px;min-height:64px;gap:10px}.problems-close p{font-size:9px}.close-mark{width:28px;height:28px}}
